@@ -54,12 +54,9 @@ export default function App() {
               <Text style={styles.repository}> {repository.title} </Text>
 
               <View style={styles.techsContainer}>
-                <Text style={styles.tech}>
-                  {repository.techs}
-                </Text>
-                <Text style={styles.tech}>
-                  {repository.techs}
-                </Text>
+                  <Text style={styles.tech}>
+                    {repository.techs}
+                  </Text>
               </View>
     
               <View style={styles.likesContainer}>
